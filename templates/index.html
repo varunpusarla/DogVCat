@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Classification</title>
+    <style>
+        *{
+        background-color:#9933ff;
+        }
+
+        .box{
+        border: 5px solid black;
+
+        }
+        h1{
+            text-align:center;
+            -webkit-text-stroke: 1px black;
+            color:#800000;
+           }
+
+         form{
+         text-align:center;
+         margin:5px;
+         }
+
+         p{
+         font-family:Fantasy;
+         }
+
+         input{
+         background-color:white;
+         font-family:Fantasy;
+         }
+    </style>
+</head>
+<body>
+       <div class="box">
+       <h1>Image Classification</h1>
+       <form method="POST" action="/" enctype="multipart/form-data">
+           <p>Upload an image of dog/cat</p>
+           <input type="file" name="userfile" placeholder="your image">
+           <br>
+           <input type="submit">
+       </form>
+       </div>
+
+
+</body>
+</html>
